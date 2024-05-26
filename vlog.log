@@ -1,0 +1,15 @@
+# vsim -c -voptargs=""+acc"" top -l vlog.log 
+# Start time: 20:48:30 on May 26,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading sv_std.std
+# Loading work.not_virtual_sv_unit(fast)
+# Loading work.top(fast)
+# The Lion says Roar
+# The Lion is 15 years old
+# The Chicken says BECAWW
+# The Chicken is 1 years old
+# ** Fatal: Generic animals don't have a sound.
+#    Time: 0 ns  Scope: not_virtual_sv_unit.animal.make_sound File: not_virtual.sv Line: 24
+# ** Note: $finish    : not_virtual.sv(24)
+#    Time: 0 ns  Iteration: 0  Instance: /top
