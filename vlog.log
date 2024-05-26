@@ -47,3 +47,32 @@ do run.do
 # The animal is 15 years old
 # The Chicken says BECAWW
 # The animal is 1 years old
+quit -sim
+# End time: 22:31:16 on May 26,2024, Elapsed time: 1:28:19
+# Errors: 0, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 22:31:20 on May 26,2024
+# vlog -reportprogress 300 -f sv.f 
+# -- Compiling package pure_virtual_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:31:20 on May 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -voptargs=""+acc"" top -l vlog.log 
+# Start time: 22:31:20 on May 26,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading sv_std.std
+# Loading work.pure_virtual_sv_unit(fast)
+# Loading work.top(fast)
+# The Lion says Roar
+# The Lion is 15 years old
+# The Chicken says BECAWW
+# The Chicken is 1 years old
+# The Lion says Roar
+# The animal is 15 years old
+# The Chicken says BECAWW
+# The animal is 1 years old
