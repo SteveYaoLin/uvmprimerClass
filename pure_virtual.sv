@@ -60,7 +60,7 @@ module top;
       chicken  chicken_h;
       animal animal_h;
    
-      //animal_h = new(3); 抽象类不能用来例化
+      animal_h = new(3); //抽象类不能用来例化
       
       lion_h  = new(15);
       lion_h.make_sound();
