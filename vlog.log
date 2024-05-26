@@ -13,3 +13,5 @@
 #    Time: 0 ns  Scope: not_virtual_sv_unit.animal.make_sound File: not_virtual.sv Line: 24
 # ** Note: $finish    : not_virtual.sv(24)
 #    Time: 0 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Function not_virtual_sv_unit/animal::make_sound at not_virtual.sv line 24
